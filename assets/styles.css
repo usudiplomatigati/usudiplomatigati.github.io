@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contactus {
+  font-size: 12px;
+}
+
+.navitem {
+  font-size: 15px !important;
+}
+
+.lay-spacing {
+  margin-top: 30px;
+}
+
+.nvmenu ul li :hover {
+  color: #198754;
+  font-weight: 700;
+}
+
+.ddi li :hover {
+  background-color: #198754;
+  color: white !important;
+  font-weight: 300 !important;
+}
+
+/* BERITA */
+.isiBerita {
+  text-overflow: ellipsis !important;
+}
+
+/* PENGUMUMAN */
+.peng {
+  text-decoration: none !important;
+}
+
+.peng ul a li :hover {
+  color: #dc3545 !important;
+  font-weight: 900 !important;
+}
+
+.isiBerita1 {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important; /* number of lines to show */
+  -webkit-box-orient: vertical !important;
+}
+/* :root {
+  --main-bg-color: white;
+  --main-text-color: #009d63;
+  --second-text-color: #bbbec5;
+  --second-bg-color: white;
+} */
+
+#wrapper {
+  overflow-x: hidden;
+  background-color: white;
+  /* background-image: linear-gradient(to right, #baf3d7, #c2f5de, #cbf7e4, #d4f8ea, #ddfaef); */
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+#menu-toggle {
+  cursor: pointer;
+}
+
+.list-group-item {
+  border: none;
+  padding: 20px 30px;
+}
+
+.list-group-item.active {
+  background-color: transparent;
+  color: var(--main-text-color);
+  font-weight: bold;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .tb_berita {
+    overflow-x: scroll;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+.sidebar-link {
+  display: flex !important;
+  align-items: center;
+}
+.sidebar-link .right-icon {
+  display: inline-flex !important;
+}
+.sidebar-link[aria-expanded="true"] .right-icon {
+  transform: rotate(90deg) !important;
+}
+
+.collapse .nav-link a :hover {
+  font-weight: bold;
+}
+
+.dicon {
+  text-decoration: none !important;
+  color: white;
+}
+
+.dBerita {
+  color: #198754;
+}
+
+.dBerita :hover {
+  background-color: #198754;
+  color: white !important;
+}
+
+.dPengumuman {
+  color: #dc3545;
+}
+
+.dPengumuman :hover {
+  background-color: #dc3545;
+  color: white !important;
+}
+
+.dAgenda {
+  color: #ffc107;
+}
+
+.dAgenda :hover {
+  background-color: #ffc107;
+  color: white !important;
+}
+
+.dDosen {
+  color: #212529;
+}
+
+.dDosen :hover {
+  background-color: #212529;
+  color: white !important;
+}
+
+.dMatkul {
+  color: #0d6efd;
+}
+
+.dMatkul :hover {
+  background-color: #0d6efd;
+  color: white !important;
+}
+
+.dPenelitian {
+  color: #294c60;
+}
+
+.dPenelitian :hover {
+  background-color: #294c60;
+  color: white !important;
+}
